@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        UOM Webpage Assignment
+    </title>
+</head>
+<style>
+    .resposive {
+        width: 100%;
+        height: auto;
+    }
+
+    .underline {
+        text-decoration-line: underline;
+        text-decoration-style: wavy;
+        text-decoration-color: black;
+    }
+
+    .underline1 {
+        text-decoration-color: white;
+        text-decoration-line: underline;
+        text-decoration-style: wavy;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+    }
+
+    p {
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .p1 {
+        color: white;
+    }
+
+    body {
+        border-style: dashed;
+        border-width: thick;
+    }
+
+    table,
+    th,
+    td {
+        border: 2px solid black;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+    }
+
+    div {
+        width: 200px;
+        height: 100px;
+        background-color: red;
+        position: relative;
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count: 10;
+    }
+
+    @keyframes example {
+        0% {
+            background-color: red;
+            left: 0px;
+            top: 0px;
+        }
+
+        25% {
+            background-color: yellow;
+            left: 300px;
+            top: 0px;
+        }
+
+        50% {
+            background-color: blue;
+            left: 600px;
+            top: 0px;
+        }
+
+        75% {
+            background-color: pink;
+            left: 900px;
+            top: 0px;
+        }
+
+        100% {
+            background-color: orange;
+            left: 1200px;
+            top: 0px;
+        }
+    }
+</style>
+
+<body style="background-image: url('https://i.pinimg.com/originals/a2/47/8a/a2478aafa988041377a82e87381d0715.jpg');">
+    <h1 style="text-align:center;"><u> FEP TV SriLanka </u></h1>
+    <p style="text-align:center;">
+        This is the official WebPage of our YouTube channel
+        FEP TV SriLanka.. Below we show some brief information
+        about our YouTube Channel...
+    </p>
+    <ul type="square" style="font-size: 20px;">
+        <b>
+            <li style="color:white;"> We bring Science Videos... </li>
+            <li style="color:white;"> We bring Mathematics Videos... </li>
+            <li style="color:white;"> We bring History Videos... </li>
+            <li style="color:white;"> We bring Entertainment Videos... </li>
+            <li style="color:white;"> We bring Literature Videos... </li>
+        </b>
+    </ul>
+    <p> <a href="https://www.youtube.com/@FEPTVSriLanka" target="_blank">
+            <marquee behaviour="scroll " direction="right" scrollamount="15">
+                <img class="responsive" width="400px" height="400px " src="download.jpg"
+                    alt="Picture of the channel FEP TV SriLanka">
+            </marquee>
+        </a></p>
+    <h1><b><u class="underline"> --- Videos --- </u></b></h1>
+    <h2 style="font-size: 30px;"><u> + Popular Videos +</u></h2>
+    <ol type="I" style="font-size: 20px;">
+        <li style="color:white"><b>:- Background of Business </b></li>
+        <li style="color:white"><b>:- To The Nile by John Keats </b></li>
+        <li style="color:white"><b>:- The Lumber Room by Saki </b></li>
+        <li style="color:white"><b>:- The Eagle by Alfred Lord Tennyson </b></li>
+        <li style="color:white"><b>:- ඉතිහාසය හැදෑරීමේ මූලාශ්‍ර </b></li>
+    </ol>
+    <p><b> #1 Most Popular Video </b><a href="https://www.youtube.com/watch?v=CdtNfVX2oFY" target="_blank">
+            <img class="responsive" width="426" height="240" src="maxresdefault.jpg" alt="#1 Most Popular Video">
+        </a></p>
+    <p><b> #2 Most Popular Video </b><a href="https://www.youtube.com/watch?v=6qU38D5SwYw" target="_blank">
+            <img style="align-self: center;" class="responsive" width="426" height="240" src="maxresdefault (1).jpg"
+                alt="#2 Most Popular Video">
+        </a></p>
+    <p><b> #3 Most Popular Video </b><a href="https://www.youtube.com/watch?v=GlVlKAjsXqU" target="_blank">
+            <img class="responsive" width="426" height="240" src="maxresdefault (2).jpg" alt="#3 Most Popular Video">
+        </a></p>
+    <p><b> #4 Most Popular Video </b><a href="https://www.youtube.com/watch?v=mNASBbiRPls" target="_blank">
+            <img class="responsive" width="426" height="240" src="maxresdefault (3).jpg" alt="#4 Most Popular Video">
+        </a></p>
+    <p><b> #5 Most Popular Video </b><a href="https://www.youtube.com/watch?v=U2-Obz7OrdA" target="_blank">
+            <img class="responsive" width="426" height="240" src="New Thumb 1.jpg" alt="#5 Most Popular Video">
+        </a></p>
+
+    <h1 style="color:white"><u class="underline1"> -- Description -- </u></h1>
+    <p class="p1" style="text-align:justify;"> "Where the quality makes deliberate interest"
+        FEP TV Sri Lanka is the one of the most successful YouTube channels for GCE O/L English medium & Sinhala medium
+        both.
+
+        English Medium & Sinhala Medium Commerce Classes
+        Grade 10 & 11... Group & Individual WhatsApp Contact - 0741657584 Just put a message 0714607078 </p>
+    <h1 style="color: white;"><u class="underline1"> Statistics of the Channel </u></h1>
+    <table style="width:100%">
+        <tr>
+            <th style="color: black;"><b> Video Name </b></th>
+            <th style="color: black;"><b> No. of Views </b></th>
+            <th style="color: black;"><b> Money Earned </b></th>
+        </tr>
+        <tr>
+            <td><b> Background of Business </b></td>
+            <td><b> 24,000+ views </b></td>
+            <td><b> 500$ </b></td>
+        </tr>
+        <tr>
+            <td><b> To the Nile by John Keats </b></td>
+            <td><b> 24,000+ views </b></td>
+            <td><b> 400$ </b></td>
+        </tr>
+        <tr>
+            <td><b> The Lumber Room by Saki </b></td>
+            <td><b> 20,000+ views </b></td>
+            <td><b> 450$ </b></td>
+        </tr>
+        <tr>
+            <td><b> The Eagle by Alfred Lord Tennyson </b></td>
+            <td><b> 20,000+ views </b></td>
+            <td><b> 350$ </b></td>
+        </tr>
+        <tr>
+            <td><b> Chemical Basis of Life </b></td>
+            <td><b> 15,000+ views </b></td>
+            <td><b> 600$ </b></td>
+        </tr>
+    </table>
+
+    <p><b> * The Images are HyperLinks when you click on them they redirect... <br>
+            * I took some help from (W3schools) website as well...
+        </b>
+    </p>
+
+    <div></div>
+
+    <h1> !! Thank You For Experiencing My First Ever WebPage !! </h1>
+
+
+
+
+
+</body>
+
+</html>
